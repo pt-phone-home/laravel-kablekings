@@ -1,0 +1,73 @@
+html {
+    font-size: 100%;
+    font-family: "Neucha", cursive;
+    font-family: "Indie Flower", cursive;
+    font-family: "Roboto", "sans-serif";
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1250px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 1150px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 1050px) {
+    html {
+        font-size: 83%;
+    }
+}
+
+@media (max-width: 950px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 850px) {
+    html {
+        font-size: 78%;
+    }
+}
+
+@media (max-width: 750px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 650px) {
+    html {
+        font-size: 72%;
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 67%;
+    }
+}
+
+@media (max-width: 350px) {
+    html {
+        font-size: 64%;
+    }
+}
+
+@media (min-width: 1500px) {
+    html {
+        font-size: 105%;
+    }
+}
