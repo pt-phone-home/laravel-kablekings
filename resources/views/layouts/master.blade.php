@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="{{asset('css/toastr.min.css')}}">
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Gentium+Basic:400,700|PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
     <script src="https://kit.fontawesome.com/de93c2514e.js"></script>
 
 
