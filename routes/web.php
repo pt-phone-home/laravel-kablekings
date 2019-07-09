@@ -19,3 +19,6 @@ Auth::routes();
 // Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', 'PagesController@index')->name('index');
+
+// Contact Form
+Route::post('info/contact', 'PagesController@sendEmail')->name('contact.post');
