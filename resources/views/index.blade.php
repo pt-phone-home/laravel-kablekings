@@ -20,11 +20,11 @@ Kable Kings | Welcome to Kable Kings
                 <div class="flex mt-6">
                     <div class="w-1/2 pl-8 md:pl-0">
                         <ul class="list-reset text-xl text-gray-200 ">
-                            <li><i class="far fa-check-circle mr-4 text-sm text-gray-300"></i>Saorview</li>
-                            <li><i class="far fa-check-circle mr-4 text-sm text-gray-300"></i>TV Costs Reduced</li>
+                            <li><i class="far fa-check-circle mr-4 text-sm text-gray-300"></i>Free to Air TV</li>
                             <li><i class="far fa-check-circle mr-4 text-sm text-gray-300"></i>WIFI enhancement</li>
                             <li><i class="far fa-check-circle mr-4 text-sm text-gray-300"></i>Structured Cabling</li>
-                            <li><i class="far fa-check-circle mr-4 text-sm text-gray-300"></i>Home Security</li>
+                            <li><i class="far fa-check-circle mr-4 text-sm text-gray-300"></i>Home Networks &amp; Security</li>
+                            <li><i class="far fa-check-circle mr-4 text-sm text-gray-300"></i>Satelite &amp; Cable Removal</li>
                             <li><i class="far fa-check-circle mr-4 text-sm text-gray-300"></i>Free Estimates</li>
                         </ul>
                     </div>

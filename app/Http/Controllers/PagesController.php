@@ -26,7 +26,7 @@ class PagesController extends Controller
 
         $email->name = $request['name'];
         $email->email = $request['email'];
-        $email->number = $request['phone'];
+        $email->phone = $request['phone'];
         $email->message = $request['message'];
 
         \Mail::to('ptiernan@gmail.com')->send(
