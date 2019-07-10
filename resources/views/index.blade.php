@@ -74,22 +74,22 @@ Kable Kings | Welcome to Kable Kings
                     @endif
                     <div class="w-full flex mb-4">
                         <label for="name" class="mr-4">Name:</label>
-                        <input type="text" name="name" placeholder="Your Full Name" class="border border-black rounded px-1 text-sm w-full" required>
+                    <input type="text" name="name" value="{{old('name')}}" placeholder="Your Full Name" class="border border-black rounded px-1 text-sm w-full" required>
                     </div>
                     <div class="w-full flex mb-4">
                         <label for="phone" class="mr-4">Phone:</label>
-                        <input type="number" name="phone" placeholder="087 ... " class="border border-black rounded px-1 text-sm w-full">
+                    <input type="number" name="phone" value="{{old('phone')}}" placeholder="087 ... " class="border border-black rounded px-1 text-sm w-full">
                     </div>
                     <div class="w-full flex mb-4">
                         <label for="email" class="mr-4">Email:</label>
-                        <input type="email" name="email" placeholder="example@gmail.com" class="border border-black rounded px-1 text-sm w-full" required>
+                    <input type="email" name="email" value="{{old('email')}}" placeholder="example@gmail.com" class="border border-black rounded px-1 text-sm w-full" required>
                     </div>
                     <div class="w-full flex mb-4">
                         <label for="message">Your enquiry:</label>
                     </div>
 
                     <div class="w-full flex mb-4">
-                        <textarea name="message" id="" cols="30" rows="10" class="border border-black rounded px-1 text-sm w-full" required></textarea>
+                    <textarea name="message" id="" cols="30" rows="10" class="border border-black rounded px-1 text-sm w-full" required>{{old('message')}}</textarea>
                     </div>
                     <div class="mb-4">
                         {!! NoCaptcha::renderJs(array('required' => 'required')) !!}
