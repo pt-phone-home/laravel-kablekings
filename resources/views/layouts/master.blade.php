@@ -30,8 +30,10 @@
 
     <div class="bg-black">
         <div class="container mx-auto flex justify-center items-center">
-            <div class="py-16 flex justify-center"> 
-                <img src="/images/crown.png" alt="" class="h-32 w-auto">
+            <div class="py-16 w-3/5 flex justify-around items-center">
+                <a href="https://twitter.com/kablekings?lang=en" target="_blank"><i class="fab fa-twitter text-gray-100 text-3xl"></i></a> 
+                <img src="/images/crown.png" alt="" class="h-16 w-auto">
+                <a href="https://www.instagram.com/kablekings.ie/" target="_blank"><i class="fab fa-instagram text-gray-100 text-3xl"></i></a>
             </div>
         </div>
         <div class="container mx-auto flex justify-center items-center">
