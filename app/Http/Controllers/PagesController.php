@@ -29,7 +29,7 @@ class PagesController extends Controller
         $email->phone = $request['phone'];
         $email->message = $request['message'];
 
-        \Mail::to('ptiernan@gmail.com')->send(
+        \Mail::to('info@kablekings.ie')->send(
             new WebsiteMessage($email)
         );
 
